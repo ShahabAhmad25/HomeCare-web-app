@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Electrician",
+    "description": "Professional electrical services for installations, repairs, and maintenance",
+    "image": "/src/assets/images/electrician.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Plumber",
+    "description": "Expert plumbing services for repairs, installations, and maintenance",
+    "image": "/src/assets/images/plumber.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carpenter",
+    "description": "Skilled carpentry work for furniture, repairs, and custom woodwork",
+    "image": "/src/assets/images/carpenter.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gardener",
+    "description": "Garden maintenance, landscaping, and plant care services",
+    "image": "/src/assets/images/gardner.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cleaning Services",
+    "description": "Professional deep cleaning and regular maintenance for your home",
+    "image": "/src/assets/images/cleaning-service.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Painter",
+    "description": "Interior and exterior painting services with quality finishes and materials",
+    "image": "/src/assets/images/painter.jpg"
+  },
+ 
+  {
+    "id": 7,
+    "name": "Sofa cleaning ",
+    "description": "Professional deep cleaning of sofas and upholstery to remove stains and dirt",
+    "image": "/src/assets/images/sofa-cleaning.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Home Appliances Repair",
+    "description": "Repair and maintenance for kitchen and home appliances",
+    "image": "/src/assets/images/appliances-repair.jpg"
+  }
+]

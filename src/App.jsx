@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './layout'
-import HomePage from './pages/homepage'
+import HomePage from './pages/HomePage'
 import ServicePage from './pages/ServicesPage'
 import ServiceProviders from './pages/ServiceProviders'
 import ChooseBookingMethod from './pages/ChooseBookingMethod'
@@ -24,7 +24,6 @@ function App() {
           <Route element={<HomePage></HomePage>} path='/'/>
           <Route element={<ServicePage></ServicePage>} path='/services'/>
           <Route element={<ServiceProviders></ServiceProviders>} path='/services/providers/:category'/>
-          {/* <Route element={<ProviderDetails></ProviderDetails>} path='/services/service-providers/provider-profile'/> */}
           <Route element={<ChooseBookingMethod></ChooseBookingMethod>} path='/services/booking-method/:category'/>
           <Route element={<ProviderBookingForm></ProviderBookingForm>} path='/booking/provider-booking-details'/>
           <Route element={<JobBookingForm></JobBookingForm>} path='/services/booking-details'/>

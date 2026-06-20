@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactCard from '../components/ContactCard'
-import ContactForm from '../components/COntactForm'
+import ContactForm from '../components/ContactForm'
 
 const ContactUs = () => {
   return (

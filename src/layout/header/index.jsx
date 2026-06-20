@@ -3,7 +3,7 @@ import Logo from '../../assets/images/logo site 2.png';
 import { Link } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Sidebar from '../../components/sidebar';
+import Sidebar from '../../components/Sidebar';
 
 const Header = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);

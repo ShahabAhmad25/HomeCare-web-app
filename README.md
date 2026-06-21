@@ -1,16 +1,164 @@
-# React + Vite
+# 🏠 HomeCare Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+HomeCare is a modern web application designed to help users find and explore home services such as electricians, plumbers, cleaners, painters, and other household professionals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project aims to provide a simple, user-friendly, and responsive platform for customers looking for reliable home service providers.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+### User Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Browse available home services
+* View service details
+* Explore service providers
+* Responsive design for all devices
+* Modern user interface
+* Fast performance using React and Vite
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* Vite
+* JavaScript (ES6+)
+* Tailwind CSS
+* HTML5
+* CSS3
+
+### Development Tools
+
+* VS Code
+* Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+HomeCare-web-app/
+│
+├── dist/
+│   ├── assets/
+│   └── index.html
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   └── images/
+│   │
+│   ├── components/
+│   ├── data/
+│   ├── layout/
+│   ├── pages/
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ShahabAhmad25/HomeCare-web-app.git
+```
+
+### Navigate to Project Directory
+
+```bash
+cd HomeCare-web-app
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will run locally at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📦 Build for Production
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+The optimized files will be generated inside the `dist` folder.
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎯 Project Objective
+
+The goal of HomeCare is to simplify the process of finding home service professionals by providing an easy-to-use online platform where customers can explore available services and connect with providers.
+
+---
+
+## 🔮 Future Enhancements
+
+* Service Provider Registration
+* Provider Dashboard
+* Admin Panel
+* Service Booking System
+* User Authentication
+* Ratings & Reviews
+* Online Payments
+* Real-Time Notifications
+* Chat Support
+
+---
+
+## 👨‍💻 Author
+
+**Shahab Ahmad**
+
+Software Engineering Student
+
+GitHub: https://github.com/ShahabAhmad25
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.

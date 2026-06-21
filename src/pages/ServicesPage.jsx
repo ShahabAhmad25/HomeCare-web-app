@@ -5,6 +5,8 @@ import categories from '../data/categories.json'
 import { AiOutlineSearch } from "react-icons/ai";
 
 const ServicePage = () => {
+    const resolveImage = (imageName) => new URL(`../assets/images/${imageName}`, import.meta.url).href;
+
     return (
         <main className='container mx-auto px-4 py-8 sm:py-12'>
             <div className="text-center mb-8">
@@ -25,7 +27,7 @@ const ServicePage = () => {
                 {categories.map(category => (
                     <ServiceCard 
                         key={category.id}
-                        image={category.image}
+                        image={resolveImage(category.image)}
                         text={category.name} 
                         description={category.description}
                         categoryId={category.id}
